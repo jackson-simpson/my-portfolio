@@ -50,6 +50,10 @@
   },
   "browserslist": "> 2%, not dead",
   "dependencies": {
-    "react-ionicons": "^4.2.1"
+    "@formspree/react": "^2.4.4",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
+    "react-ionicons": "^4.2.1",
+    "sass": "^1.63.6"
   }
 }
