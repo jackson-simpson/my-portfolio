@@ -48,5 +48,8 @@
     "semi": false,
     "singleQuote": true
   },
-  "browserslist": "> 2%, not dead"
+  "browserslist": "> 2%, not dead",
+  "dependencies": {
+    "react-ionicons": "^4.2.1"
+  }
 }
