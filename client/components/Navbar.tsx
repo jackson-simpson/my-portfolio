@@ -1,13 +1,20 @@
 import '../public/styles/index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faHome,
+  faUser,
+  faLaptopCode,
+  faStar,
+} from '@fortawesome/free-solid-svg-icons'
+import logo from '../public/images/logo_orange-removebg-preview.png'
 
 function Navbar() {
   return (
     <nav>
       <Link className="logo" to="/">
-        <h1>Jackson Simpson</h1>
+        <img src={logo} alt="david jackson simpson logo" />
       </Link>
       <section className="nav-selections">
         <NavLink exact="true" activeclassname="active" to="/">
@@ -20,6 +27,22 @@ function Navbar() {
           to="/about"
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="skills-link"
+          to="/skills"
+        >
+          <FontAwesomeIcon icon={faStar} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="projects-link"
+          to="/projects"
+        >
+          <FontAwesomeIcon icon={faLaptopCode} color="#4d4d4e" />
         </NavLink>
         <NavLink
           exact="true"
