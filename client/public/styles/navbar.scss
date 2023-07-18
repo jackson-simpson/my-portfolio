@@ -1,0 +1,84 @@
+@use 'variables';
+
+@import './variables.scss';
+
+
+nav {
+  position: sticky;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background: #181818;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+ 
+  .nav-selections {
+    display: flex;
+    justify-content: space-around;
+    gap: 2.5rem;
+
+    a {
+      font-size: 22px;
+      color: #4d4d4e;
+      line-height: 51px;
+      position: relative;
+      text-decoration: none;
+      
+      i {
+        transition: all 0.3s ease-out;
+      }
+      
+      &:hover {
+        color: #ffd700;
+        
+        svg {
+          opacity: 0;
+        }
+        
+        &:after {
+          opacity: 1;
+        }
+      }
+      
+      &:after {
+        content: '';
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        right: 8px;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+
+      &:first-child {
+        &::after {
+          content: 'HOME';
+        }
+      }
+    }
+
+    a.about-link {
+      &:after {
+        content: 'ABOUT';
+      }
+    }
+
+    a.contact-link {
+      &:after {
+        content: 'CONTACT';
+      }
+    }
+    a.active {
+      svg {
+        color: #ffd700;
+      }
+    }
+  }
+} 
