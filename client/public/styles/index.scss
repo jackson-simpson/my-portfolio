@@ -1,10 +1,14 @@
+@use 'variables';
+
 @import './variables.scss';
-@import './component-styling/about.scss';
-@import './component-styling/contact.scss';
-@import './component-styling/home.scss';
-@import './component-styling/navbar.scss';
-@import './component-styling/projects.scss';
-@import './component-styling/skills.scss';
+@import './about.scss';
+@import './contact.scss';
+@import './home.scss';
+@import './navbar.scss';
+@import './projects.scss';
+@import './skills.scss';
+
+
 
 html {
   font-size: 62.5%;
@@ -19,4 +23,26 @@ body {
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.container {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+
 }
