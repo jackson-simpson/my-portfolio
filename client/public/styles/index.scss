@@ -1,4 +1,10 @@
 @import './variables.scss';
+@import './component-styling/about.scss';
+@import './component-styling/contact.scss';
+@import './component-styling/home.scss';
+@import './component-styling/navbar.scss';
+@import './component-styling/projects.scss';
+@import './component-styling/skills.scss';
 
 html {
   font-size: 62.5%;
