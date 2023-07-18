@@ -67,12 +67,6 @@ nav {
       }
     }
 
-    a.skills-link {
-      &:after {
-        content: 'SKILLS';
-      }
-    }
-
     a.projects-link {
       &:after {
         content: 'PROJECTS';
@@ -92,11 +86,9 @@ nav {
     }
   }
   .logo {
-    position: relative;
     display: flex;
     
     img {
-      margin: 8px auto;
       width: 200px;
       height: auto;
     }

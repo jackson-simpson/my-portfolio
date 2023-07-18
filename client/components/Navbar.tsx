@@ -31,14 +31,6 @@ function Navbar() {
         <NavLink
           exact="true"
           activeclassname="active"
-          className="skills-link"
-          to="/skills"
-        >
-          <FontAwesomeIcon icon={faStar} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
-          exact="true"
-          activeclassname="active"
           className="projects-link"
           to="/projects"
         >
