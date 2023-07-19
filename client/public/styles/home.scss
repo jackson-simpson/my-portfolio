@@ -1,7 +1,11 @@
 .home-page {
-  display: flex;
+  padding-top: 250px;
+  gap: 10rem;
   flex-direction: row;
+  max-width: 68.75rem;
   justify-content: space-between;
+  margin: auto;
+  padding-bottom: 23.5vh;
 
   .text-zone {
     width: 25rem;
@@ -16,7 +20,6 @@
   }
 
   img {
-
     height: 37.5rem;
     width: auto;
     border-radius: 50%;

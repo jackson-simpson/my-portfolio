@@ -1,6 +1,21 @@
 .about-page {
-  display: flex;
-  flex-direction: row;
+  padding-top: 135px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vw;
+  min-width: fit-content;
+  gap: 10rem;
+  flex-direction: column;
+
+  @media (max-width: 1024px)  {
+    margin: 5vw;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 2560px)  {
+    margin: 5vw;
+    min-width: fit-content;
+  }
 
   h2 {
     color: #E48A49;
@@ -14,5 +29,38 @@
     margin: 0;
     font-family: 'Helevetica Neue';
     font-weight: 400;
+  }
+  .bio {
+    min-width: 50rem;
+  }
+  .skills {
+    min-width: 40rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    
+    .skills-wrapper {
+      display: flex;
+      flex-direction: column;
+  
+      // min-width: 35vw;
+      
+      .img {
+        padding: 1.25rem;
+      }
+      
+      .icon {
+        width: 11.875rem;
+        height: 11.25rem;
+      }
+      
+      .icon-card {
+        background-color: #fff;
+        border-radius: 11px;
+        box-shadow: 0 3px 10px var(--secondary-shadow);
+        padding: 20px;
+        margin: 10px;
+      }
+    }
   }
 }

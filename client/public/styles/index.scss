@@ -39,7 +39,7 @@ body {
   font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
   background: #022c43;
-  padding-top: 135px;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -50,23 +50,19 @@ body {
   }
 }
 
-.page {
-  width: 100%;
+.content {
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
+
 
 .container {
   display: flex;
-  padding-top: 5rem;
-  padding-left: 10;
-  max-width: 68.75rem;
-  gap: 2.5rem;
   will-change: contents;
   opacity: 0;
-  margin: auto;
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
-
 }
