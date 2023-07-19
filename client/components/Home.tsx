@@ -5,7 +5,7 @@ function Home() {
     <section className="container home-page">
       <div className="text-zone">
         <h1>
-          Hi, <br /> I&apos;m Jackson Simpson, <br /> Front-End Software
+          Hi, <br /> I&apos;m Jackson Simpson, <br /> Full-Stack Software
           Developer{' '}
         </h1>
       </div>
