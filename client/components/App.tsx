@@ -1,14 +1,16 @@
 import '../public/styles/index.scss'
 import { Outlet } from 'react-router-dom'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 function App() {
   return (
     <body>
       <Navbar />
-      <section className="page">
+      <div className="content">
         <Outlet />
-      </section>
+      </div>
+      <Footer />
     </body>
   )
 }

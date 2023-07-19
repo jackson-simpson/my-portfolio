@@ -24,7 +24,7 @@ function Navbar() {
           exact="true"
           activeclassname="active"
           className="about-link"
-          to="/about"
+          to="/about-me"
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>

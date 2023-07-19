@@ -1,25 +1,27 @@
 .home-page {
+  padding-top: 250px;
+  gap: 10rem;
+  flex-direction: row;
+  max-width: 68.75rem;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 23.5vh;
 
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    width: 25rem;
+    
+    h1 {
+      color: #fff;
+      font-size: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+    }
   }
-
-  h1 {
-    color: #fff;
-    font-size: 53px;
-    margin: 0;
-    font-family: 'Coolvetica';
-    font-weight: 400;
-  }
-
-
 
   img {
-    width: 32px;
+    height: 37.5rem;
+    width: auto;
+    border-radius: 50%;
   }
 }

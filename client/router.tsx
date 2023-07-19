@@ -6,11 +6,13 @@ import {
 
 import App from './components/App'
 import Home from './components/Home'
+import About from './components/About'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
+      <Route path="/about-me" element={<About />} />
     </Route>
   )
 )
