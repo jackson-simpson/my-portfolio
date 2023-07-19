@@ -3,6 +3,7 @@
 @import './home.scss';
 @import './navbar.scss';
 @import './projects.scss';
+@import './footer.scss';
 
 
 @import 'animate.css';
@@ -56,13 +57,11 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-between;
   padding-top: 5rem;
   padding-left: 10;
   max-width: 68.75rem;
   gap: 2.5rem;
   will-change: contents;
-  min-height: 566px;
   opacity: 0;
   margin: auto;
   z-index: 1;

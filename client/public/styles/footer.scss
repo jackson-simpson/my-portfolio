@@ -1,0 +1,18 @@
+footer {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  z-index: 5;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5rem 4.0rem;
+  background: #181818;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+
+  h3{
+    color: #E48A49;
+    font-family: 'Helevectica Neue';
+
+  }
+}
