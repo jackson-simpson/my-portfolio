@@ -1,25 +1,24 @@
 .home-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    width: 25rem;
+    
+    h1 {
+      color: #fff;
+      font-size: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+    }
   }
-
-  h1 {
-    color: #fff;
-    font-size: 53px;
-    margin: 0;
-    font-family: 'Coolvetica';
-    font-weight: 400;
-  }
-
-
 
   img {
-    width: 32px;
+
+    height: 37.5rem;
+    width: auto;
+    border-radius: 50%;
   }
 }

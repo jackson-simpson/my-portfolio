@@ -5,8 +5,8 @@ import Navbar from './Navbar'
 function App() {
   return (
     <body>
-      <Navbar />
       <section className="page">
+        <Navbar />
         <Outlet />
       </section>
     </body>

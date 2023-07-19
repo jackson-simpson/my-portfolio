@@ -1,4 +1,5 @@
 import '../public/styles/index.scss'
+import profile from '../public/images/profile.jpg'
 
 function Home() {
   return (
@@ -8,6 +9,9 @@ function Home() {
           Hi, <br /> I&apos;m Jackson Simpson, <br /> Full-Stack Software
           Developer{' '}
         </h1>
+      </div>
+      <div className="profile-image">
+        <img src={profile} alt="headshot" />
       </div>
     </section>
   )
