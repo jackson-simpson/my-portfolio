@@ -6,9 +6,10 @@ import {
   faHome,
   faUser,
   faLaptopCode,
-  faStar,
+  faFile,
 } from '@fortawesome/free-solid-svg-icons'
 import logo from '../public/images/logo_orange-removebg-preview.png'
+import cv from '../public/Dev_CV_D Simpson-DRAFT.pdf'
 
 function Navbar() {
   return (
@@ -16,6 +17,7 @@ function Navbar() {
       <Link className="logo" to="/">
         <img src={logo} alt="david jackson simpson logo" />
       </Link>
+
       <section className="nav-selections">
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -44,6 +46,9 @@ function Navbar() {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
+        <a className="cv-link" target="blank" href={cv} download>
+          <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
+        </a>
       </section>
     </nav>
   )

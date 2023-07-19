@@ -78,6 +78,12 @@ nav {
       }
     }
 
+    a.cv-link {
+      &:after {
+        content: 'CV';
+      }
+    }
+
     a.active {
       svg {
         color: #E48A49;
