@@ -42,25 +42,25 @@ function About() {
         <div className="skills-wrapper">
           <div className="first-set animate__animated animate__pulse">
             <img
-              src="client/public/images/html5-icon.png"
+              src="https://img.icons8.com/color/240/html-5--v1.png"
               alt="html5 icon"
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="client/public/images/css3-icon.png"
+              src="https://img.icons8.com/color/240/css3.png"
               alt="css icon"
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="client/public/images/javascript-icon.png"
+              src="https://img.icons8.com/color/240/javascript--v1.png"
               alt="javascript icon"
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="client/public/images/typescript-icon.png"
+              src="https://img.icons8.com/color/240/typescript.png"
               alt="typescript icon"
               loading="lazy"
               className="icon icon-card"
@@ -70,25 +70,25 @@ function About() {
         <div className="skills-wrapper">
           <div className="second-set animate__animated animate__pulse">
             <img
-              src="client/public/images/icons8-git-240.png"
+              src="https://img.icons8.com/color/240/git.png"
               alt="git icon"
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="client/public/images/sass-icon.png"
+              src="https://img.icons8.com/color/240/sass.png"
               alt="sass icon"
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="client/public/images/react-icon.png"
+              src="https://img.icons8.com/officel/160/react.png"
               alt="react icon"
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="client/public/images/icons8-redux-240.png"
+              src="https://img.icons8.com/color/240/redux.png"
               alt="redux icon"
               loading="lazy"
               className="icon icon-card"
