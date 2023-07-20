@@ -4,39 +4,28 @@ function About() {
       <div className="bio">
         <h2>More About Me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt
-          ipsum, autem deleniti cupiditate molestias quis unde quae totam porro
-          dicta iure animi inventore, veniam hic! Omnis nulla, delectus a
-          voluptatibus.
+          For most of my employed life, I have worked in the health sector;
+          specifically in medical laboratories. I feel strongly about how we
+          care for others and always strive to do the best job I can in every
+          aspect of my work. Something I try to bring to a more recent endeavor,
+          software development.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt
-          ipsum, autem deleniti cupiditate molestias quis unde quae totam porro
-          dicta iure animi inventore, veniam hic! Omnis nulla, delectus a
-          voluptatibus.
+          I see myself as constantly learning, being curious about new ideas,
+          and approaching new scenarios with an open mind. My time within the
+          labs and during my education at Dev Academy have taught me that I
+          enjoy working within teams and being around people as well as working
+          alone where I can focus in on the task at hand.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt
-          ipsum, autem deleniti cupiditate molestias quis unde quae totam porro
-          dicta iure animi inventore, veniam hic! Omnis nulla, delectus a
-          voluptatibus.
+          I am forthcoming with input, starkly honest, and always strive for
+          excellence in my work. I am always open to feedback and always use it
+          as a way to constantly improve myself to the betterment of those in my
+          life, both within and outside of the workplace.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt
-          ipsum, autem deleniti cupiditate molestias quis unde quae totam porro
-          dicta iure animi inventore, veniam hic! Omnis nulla, delectus a
-          voluptatibus.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt
-          ipsum, autem deleniti cupiditate molestias quis unde quae totam porro
-          dicta iure animi inventore, veniam hic! Omnis nulla, delectus a
-          voluptatibus.
+          In my free time, I will devour novels (mainly fantasy), watch films,
+          play games, both table-top and online with friends and family.
         </p>
       </div>
       <div className="skills">

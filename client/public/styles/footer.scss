@@ -20,9 +20,32 @@ footer {
     width: 100%;
   }
 
-  h3{
+  h2{
     color: #E48A49;
     font-family: 'Helevectica Neue';
-
   }
+
+  a {
+    color: #E48A49;
+  }
+
+  .ack-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-container {
+    display: flex;
+    padding: 1rem;
+    
+  }
+
+  .footer-text {
+    color: #fff;
+    font-size: 11px;
+    margin: 0;
+    font-family: 'Helevetica Neue';
+    font-weight: 400;
+  }
+
 }
