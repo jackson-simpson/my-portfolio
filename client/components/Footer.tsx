@@ -95,6 +95,17 @@ function Footer() {
         <a target="_blank" href="https://icons8.com" rel="noreferrer">
           Icons8
         </a>
+        <a
+          target="_blank"
+          href="https://icons8.com/icon/l6iocFkbmCrh/book"
+          rel="noreferrer"
+        >
+          Book
+        </a>{' '}
+        icon by{' '}
+        <a target="_blank" href="https://icons8.com" rel="noreferrer">
+          Icons8
+        </a>
       </div>
     </footer>
   )
