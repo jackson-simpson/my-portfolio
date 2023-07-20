@@ -1,4 +1,5 @@
 import bookIcon from '../public/images/icons8-book-80.png'
+import auraPets from '../public/images/aura-pets.png'
 
 function Projects() {
   return (
@@ -7,7 +8,7 @@ function Projects() {
       <div className="projects-container">
         <div className="project-container project-card">
           <img
-            src="assets/images/expenseTracker.png"
+            src={auraPets}
             alt="expense-tracker"
             loading="lazy"
             className="project-pic"
@@ -18,7 +19,10 @@ function Projects() {
             ratione vel inventore labore commodi modi quos culpa aut saepe!
             Alias!
           </p>
-          <a href="#" target="_blank" className="project-link">
+          <a
+            href="https://github.com/jackson-simpson/aura-pets"
+            className="project-link"
+          >
             Link to GitHub
           </a>
         </div>
@@ -36,7 +40,10 @@ function Projects() {
             ratione vel inventore labore commodi modi quos culpa aut saepe!
             Alias!
           </p>
-          <a href="#" target="_blank" className="project-link">
+          <a
+            href="https://github.com/jackson-simpson/media-tracker"
+            className="project-link"
+          >
             Link to Github
           </a>
         </div>
