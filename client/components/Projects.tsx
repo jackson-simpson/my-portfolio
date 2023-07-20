@@ -16,9 +16,10 @@ function Projects() {
           <h3 className="project-title">Aura Pets</h3>
           <p className="project-details">
             The final project I participated in during my time at Dev Academy.
-            We were given a week to create an app, and this is the result. It is
-            currently not deployed but all project targets were met, with
-            numerous stretch goals to be looked at in the future.
+            We were given a week to create an app, and we used react.js, redux,
+            sass, and Auth0 as its main technologies. It is currently not
+            deployed but all project targets were met, with numerous stretch
+            goals to be looked at in the future.
           </p>
           <a
             href="https://github.com/jackson-simpson/aura-pets"
@@ -40,7 +41,8 @@ function Projects() {
             A personal project for listing all my books. The idea is to
             eventually have the ability to add reviews, and have a list of
             priority. I also want to add things other than books, such as movies
-            or games, essentially to track my hobbies!
+            or games, essentially to track my hobbies! For technologies, I want
+            to use this project to experiment to CSS frameworks.
           </p>
           <a
             href="https://github.com/jackson-simpson/media-tracker"

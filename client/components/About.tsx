@@ -28,6 +28,15 @@ function About() {
           play games, both table-top and online with friends and family.
         </p>
       </div>
+
+      <div className="bio">
+        <h2>Future Goals</h2>
+        <p>
+          My current goals are to learn a few more languages, namely C#, Python
+          and .NET Framework; as well as work on a few personal projects, namely
+          the Library App for my personal use.
+        </p>
+      </div>
       <div className="skills">
         <h2>My Skills</h2>
         <div className="skills-wrapper">
