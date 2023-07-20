@@ -24,6 +24,8 @@ function Projects() {
           <a
             href="https://github.com/jackson-simpson/aura-pets"
             className="project-link"
+            target="_blank"
+            rel="noreferrer"
           >
             Link to GitHub
           </a>
@@ -47,6 +49,8 @@ function Projects() {
           <a
             href="https://github.com/jackson-simpson/media-tracker"
             className="project-link"
+            target="_blank"
+            rel="noreferrer"
           >
             Link to Github
           </a>

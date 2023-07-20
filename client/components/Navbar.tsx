@@ -46,7 +46,13 @@ function Navbar() {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <a className="cv-link" target="blank" href={cv} download>
+        <a
+          className="cv-link"
+          target="_blank"
+          rel="noreferrer"
+          href={cv}
+          download
+        >
           <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
         </a>
       </section>
