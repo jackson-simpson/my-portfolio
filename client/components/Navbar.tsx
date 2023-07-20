@@ -9,7 +9,7 @@ import {
   faFile,
 } from '@fortawesome/free-solid-svg-icons'
 import logo from '../public/images/logo_orange-removebg-preview.png'
-import cv from '../public/Dev_CV_D Simpson-DRAFT.pdf'
+import cv from '../public/Dev-CV-D-J-Simpson.pdf'
 
 function Navbar() {
   return (
