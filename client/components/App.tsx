@@ -1,9 +1,17 @@
+import '../public/styles/index.scss'
+import { Outlet } from 'react-router-dom'
+import Navbar from './Navbar'
+import Footer from './Footer'
+
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-      <p>React development has begun!</p>
-    </div>
+    <body>
+      <Navbar />
+      <div className="content">
+        <Outlet />
+      </div>
+      <Footer />
+    </body>
   )
 }
 

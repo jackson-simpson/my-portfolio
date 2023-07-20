@@ -1,0 +1,51 @@
+footer {
+  position: sticky;
+  display: flex;
+  bottom: 0;
+  z-index: 5;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5rem 4.0rem;
+  background: #181818;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 320px)  {
+    position: fixed;
+    bottom: 0;
+  }
+
+  @media (max-width: 2560px)  {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  h2{
+    color: #E48A49;
+    font-family: 'Helevectica Neue';
+  }
+
+  a {
+    color: #E48A49;
+  }
+
+  .ack-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-container {
+    display: flex;
+    padding: 1rem;
+    
+  }
+
+  .footer-text {
+    color: #fff;
+    font-size: 11px;
+    margin: 0;
+    font-family: 'Helevetica Neue';
+    font-weight: 400;
+  }
+
+}

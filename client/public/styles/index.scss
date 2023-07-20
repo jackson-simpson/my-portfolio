@@ -1,0 +1,68 @@
+@import './about.scss';
+@import './contact.scss';
+@import './home.scss';
+@import './navbar.scss';
+@import './projects.scss';
+@import './footer.scss';
+
+
+@import 'animate.css';
+
+$primary-color: #E48A49;
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/helvetica-neu.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('../fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('../fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input,
+textarea {
+  font-family: 'Helvetica Neue'
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: #444;
+  background: #022c43;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+  display: flex;
+  will-change: contents;
+  opacity: 0;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+}

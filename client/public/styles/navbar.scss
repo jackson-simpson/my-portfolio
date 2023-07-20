@@ -1,0 +1,102 @@
+nav {
+  position: fixed;
+  display: flex;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 4.0rem;
+  background: #181818;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+ 
+  .nav-selections {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    margin-right: 70px;
+
+    a {
+      font-size: 22px;
+      color: #4d4d4e;
+      line-height: 51px;
+      position: relative;
+      text-decoration: none;
+      
+      i {
+        transition: all 0.3s ease-out;
+      }
+      
+      &:hover {
+        color: #E48A49;
+        
+        svg {
+          opacity: 0;
+        }
+        
+        &:after {
+          opacity: 1;
+        }
+      }
+      
+      &:after {
+        content: '';
+        font-size: 11px;
+        letter-spacing: 2px;
+        position: absolute;
+        right: 14px;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+
+      &:first-child {
+        &::after {
+          content: 'HOME';
+        }
+      }
+    }
+
+    a.about-link {
+      &:after {
+        content: 'ABOUT';
+      }
+    }
+
+    a.projects-link {
+      &:after {
+        content: 'PROJECTS';
+      }
+    }
+
+    a.contact-link {
+      &:after {
+        content: 'CONTACT';
+      }
+    }
+
+    a.cv-link {
+      &:after {
+        content: 'CV';
+      }
+    }
+
+    a.active {
+      svg {
+        color: #E48A49;
+      }
+    }
+  }
+  .logo {
+    display: block;
+    
+    img {
+      position: relative;
+      width: 200px;
+      height: auto;
+    }
+  }
+} 
