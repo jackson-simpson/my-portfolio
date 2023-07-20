@@ -13,7 +13,7 @@ nav {
   .nav-selections {
     display: flex;
     justify-content: space-around;
-    gap: 2.8rem;
+    gap: 3rem;
     margin-right: 70px;
 
     a {
@@ -41,10 +41,10 @@ nav {
       
       &:after {
         content: '';
-        font-size: 9px;
+        font-size: 11px;
         letter-spacing: 2px;
         position: absolute;
-        right: 8px;
+        right: 14px;
         bottom: 0;
         display: block;
         width: 100%;

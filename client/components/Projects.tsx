@@ -15,9 +15,10 @@ function Projects() {
           />
           <h3 className="project-title">Aura Pets</h3>
           <p className="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            The final project I participated in during my time at Dev Academy.
+            We were given a week to create an app, and this is the result. It is
+            currently not deployed but all project targets were met, with
+            numerous stretch goals to be looked at in the future.
           </p>
           <a
             href="https://github.com/jackson-simpson/aura-pets"

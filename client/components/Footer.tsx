@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <h3>Acknowledgements</h3>
+        <h2>Acknowledgements</h2>
       </div>
       <div className="footer-text">
         <div className="ack-container">
