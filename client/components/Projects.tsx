@@ -37,9 +37,10 @@ function Projects() {
           <h3 className="project-title">Library App</h3>
           <h4 className="project-title">In Progress</h4>
           <p className="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            A personal project for listing all my books. The idea is to
+            eventually have the ability to add reviews, and have a list of
+            priority. I also want to add things other than books, such as movies
+            or games, essentially to track my hobbies!
           </p>
           <a
             href="https://github.com/jackson-simpson/media-tracker"
